@@ -18,4 +18,18 @@ Skills:
        · Linux Fundamentals 
        · Kali Linux 
        · Cybersecurity Tools
-
+Currently i am commited to upscaling myself each and every month self learning and working on my personal home lab
+1st month
+Week 1: Introduction to Cybersecurity & OWASP - Topics: What is Cybersecurity, CIA Triad, OWASP Top 10
+        (overview) - Tools: Wireshark basics - Practice: TryHackMe Pre-Security
+        I have completed these topics in my first week of learning journey.
+Week 2: Networking Fundamentals (TCP/IP, OSI model) - Tools: Nmap, Netcat - Practice: Packet
+        analysis in Wireshark - Daily: 1 hr videos/notes, 1 hr hands-on
+        Gained knowlege about networking in that TCP/IP and OSI model and difference between them then i got some handson work in my personal pc Where i have setup a VM(Virtual Machine) I have installed Windows 10,Ubuntu,Kali Linux,
+        Installed Wireshark and setuped everthing by self learning refering @Chris Greer youtube channel and then done different kind of handson works like packet capture,flags,creating a personal profiles,reading the network datas,adding some customized filters,labeling,Timestamping etc.
+        Later in this week i got some experince in Basic NMAP network scanning using Kali Linux OS,self learning reffering youtube @Hacker Joe and reading offical Nmap.org Guide and documaentaitons.
+Week 3: OS Internals – Windows & Linux - Topics: Linux & Windows OS internals (processes, file systems) 
+        Tools: Windows Sysinternals, Linux terminal - Practice: Basic command usage, task manager, ps/top
+        Explored Windows Linux file system and terminals learnt some basic commands to interact in commandline operations.
+Week 4: Final Foundation Project + OWASP Deep Dive - Project: Simulate a small brute-force detection
+        scenario - Review: OWASP Top 10 in depth, complete TryHackMe Pre-Security
