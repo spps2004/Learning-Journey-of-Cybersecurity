@@ -31,4 +31,5 @@ Week 3: OS Internals – Windows & Linux - Topics: Linux & Windows OS internals 
         Tools: Windows Sysinternals, Linux terminal - Practice: Basic command usage, task manager, ps/top
         Explored Windows Linux file system and terminals learnt some basic commands to interact in commandline operations.
 Week 4: Final Foundation Project + OWASP Deep Dive - Project: Simulate a small brute-force detection
-        scenario - Review: OWASP Top 10 in depth, complete TryHackMe Pre-Security
+        scenario - Review: OWASP Top 10 in depth, complete TryHackMe Pre-Security.
+        completed reading of OWASP and then installed sysmon and splunk in my vm windows machine 
