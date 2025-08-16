@@ -33,3 +33,5 @@ Week 3: OS Internals – Windows & Linux - Topics: Linux & Windows OS internals 
 Week 4: Final Foundation Project + OWASP Deep Dive - Project: Simulate a small brute-force detection
         scenario - Review: OWASP Top 10 in depth, complete TryHackMe Pre-Security.
         completed reading of OWASP and then installed sysmon and splunk in my vm windows machine, Got some handson experience in splunk tool and completed introduction to splunk course by their own official website.
+        I coud not complete Simulation of brute force attack i learnt about the brute force attack and how it work by Completing Room Enumeration and Brute force attack.
+        Doing some handson session in splunk using this web Full-Stack Incident Response (https://samsclass.info/152/FSIR2021.htm)
