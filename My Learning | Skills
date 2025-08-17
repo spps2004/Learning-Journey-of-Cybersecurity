@@ -47,19 +47,19 @@ Week 1: SOC Basics & Windows Logs - Topics: SOC roles, CSIRT workflow - Tools: E
 Daily Breakdown:
        Day 1: SOC structure overview + real-world CSIRT case studies 
  1. SOC Organizational Layers
-🔹 Tier 1 (Monitoring & Triage – Junior Analysts)
+    Tier 1 (Monitoring & Triage – Junior Analysts)
           Watch SIEM dashboards, EDR alerts, IDS/IPS logs.
           Validate if alerts are false positives or real incidents.
           Escalate to Tier 2 if suspicious.
-🔹 Tier 2 (Investigation & Response – Senior Analysts)
+    Tier 2 (Investigation & Response – Senior Analysts)
           Deep dive into logs, network traffic, malware samples.
           Contain the threat (isolate machine, block IP).
           Coordinate with IT teams for patching or recovery.
-🔹 Tier 3 (Threat Hunting & Expert Response)
+    Tier 3 (Threat Hunting & Expert Response)
          Proactively search for threats that bypass detection.
          Write detection rules (YARA, Sigma, custom SIEM queries).
          Reverse engineer malware, analyze attacker TTPs.
-🔹 SOC Manager
+    SOC Manager
          Oversees operations, assigns incidents, handles escalation.
          Reports KPIs to executives (MTTD – Mean Time to Detect, MTTR – Mean Time to Respond).
 2. Supporting Roles
