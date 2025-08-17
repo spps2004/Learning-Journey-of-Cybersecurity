@@ -18,7 +18,9 @@ Skills:
        · Kali Linux 
        · Cybersecurity Tools
 Currently i am commited to upscaling myself each and every month self learning and working on my personal home lab
-1st month
+
+Month 1: Cybersecurity & System Fundamentals
+
 Week 1: Introduction to Cybersecurity & OWASP - Topics: What is Cybersecurity, CIA Triad, OWASP Top 10
         (overview) - Tools: Wireshark basics - Practice: TryHackMe Pre-Security
         I have completed these topics in my first week of learning journey.
@@ -35,3 +37,69 @@ Week 4: Final Foundation Project + OWASP Deep Dive - Project: Simulate a small b
         completed reading of OWASP and then installed sysmon and splunk in my vm windows machine, Got some handson experience in splunk tool and completed introduction to splunk course by their own official website.
         I coud not complete Simulation of brute force attack i learnt about the brute force attack and how it work by Completing Room Enumeration and Brute force attack.
         Doing some handson session in splunk using this web Full-Stack Incident Response (https://samsclass.info/152/FSIR2021.htm)
+
+Month 2: SOC Fundamentals & Log Analysis
+ Goal: Understand how a SOC works and practice log triage and detection
+
+Week 1: SOC Basics & Windows Logs - Topics: SOC roles, CSIRT workflow - Tools: Event Viewer, Sysmon
+ setup - Practice: Analyze Windows logs
+
+Daily Breakdown:
+       Day 1: SOC structure overview + real-world CSIRT case studies 
+ 1. SOC Organizational Layers
+🔹 Tier 1 (Monitoring & Triage – Junior Analysts)
+          Watch SIEM dashboards, EDR alerts, IDS/IPS logs.
+          Validate if alerts are false positives or real incidents.
+          Escalate to Tier 2 if suspicious.
+🔹 Tier 2 (Investigation & Response – Senior Analysts)
+          Deep dive into logs, network traffic, malware samples.
+          Contain the threat (isolate machine, block IP).
+          Coordinate with IT teams for patching or recovery.
+🔹 Tier 3 (Threat Hunting & Expert Response)
+         Proactively search for threats that bypass detection.
+         Write detection rules (YARA, Sigma, custom SIEM queries).
+         Reverse engineer malware, analyze attacker TTPs.
+🔹 SOC Manager
+         Oversees operations, assigns incidents, handles escalation.
+         Reports KPIs to executives (MTTD – Mean Time to Detect, MTTR – Mean Time to Respond).
+2. Supporting Roles
+         Threat Intelligence Team → Gathers intel on threat actors, IOCs.
+         Forensics & Incident Response (DFIR) → Recovers evidence, performs post-mortem.
+         SOAR/Automation Engineer → Automates repetitive tasks (auto-blocking IPs, auto-quarantine endpoints).
+         Compliance Officer → Ensures SOC meets ISO/NIST/GDPR regulations.
+3. SOC Tech Stack
+        SIEM → Splunk, QRadar, Elastic, Azure Sentinel.
+        EDR → CrowdStrike, Carbon Black, Defender ATP.
+        SOAR → Cortex XSOAR, Phantom, Demisto.
+        Threat Intel Feeds → MISP, Recorded Future, OpenCTI.
+        Forensics Tools → Volatility, Autopsy, EnCase, Wireshark.
+
+Real-World CSIRT Case Studies
+Here are 3 real-world CSIRT responses (simplified, but based on actual incidents):
+Case Study 1: WannaCry Ransomware (2017)
+Incident: Massive ransomware outbreak exploiting SMBv1 vulnerability.
+CSIRT Actions:
+Tier 1 noticed spikes in SMB traffic and encrypted files.
+Tier 2 contained infection by isolating endpoints + blocking SMB traffic at firewall.
+Tier 3 reverse engineered malware, discovered “kill switch” domain.
+Global CSIRTs (NHS, FedEx, Telefonica) worked together.
+Lesson: Patch management + quick intel sharing is critical.
+
+Case Study 2: SolarWinds Supply Chain Attack (2020)
+Incident: Attackers compromised SolarWinds Orion updates, pushing backdoored software to 18,000+ organizations.
+CSIRT Actions:
+Tier 1 saw unusual outbound traffic to rare domains.
+Tier 2 investigated DLL files and confirmed backdoor (SUNBURST).
+Tier 3 threat hunters mapped attacker’s lateral movement via PowerShell & Cobalt Strike.
+CSIRTs coordinated with CISA, Microsoft, FireEye to publish IOCs.
+Lesson: Supply chain security is now a top SOC responsibility.
+
+Case Study 3: Colonial Pipeline Attack (2021)
+Incident: Ransomware attack disrupted fuel supply in the US.
+CSIRT Actions:
+Initial detection via abnormal network activity.
+Tier 2 confirmed DarkSide ransomware presence.
+SOC worked with FBI + third-party IR teams to shut down infected systems.
+Payment was made in Bitcoin; part of it was later recovered by authorities.
+Lesson: Critical infrastructure SOCs must integrate IT + OT security (ICS/SCADA) 
+The day 1 breifly learning about these topics using chatgpt these info are generated and studied these topics to improve myself in this field.
