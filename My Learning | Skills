@@ -103,3 +103,9 @@ SOC worked with FBI + third-party IR teams to shut down infected systems.
 Payment was made in Bitcoin; part of it was later recovered by authorities.
 Lesson: Critical infrastructure SOCs must integrate IT + OT security (ICS/SCADA) 
 The day 1 breifly learning about these topics using chatgpt these info are generated and studied these topics to improve myself in this field.
+
+Day 2: Install and explore Windows Sysinternals tools (Procmon, PsExec) 
+Day 3: Enable Sysmon, collect local logs, explore Event Viewer - 
+Day 4: Explore Event IDs related to authentication and access - Day 5: Correlate log events from brute-force simulation  
+Day 6: TryHackMe SOC lab (basic logging) - Day 7: Review week’s logs + self assessment journal
+-Day 2 isntallation of sysmon in vm machine is completed and also explored the PsExec tools got to know about its interface file branches color configurations file detailes process works.
