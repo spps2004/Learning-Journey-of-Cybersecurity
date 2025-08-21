@@ -109,4 +109,5 @@ Day 3: Enable Sysmon, collect local logs, explore Event Viewer -
 Day 4: Explore Event IDs related to authentication and access - Day 5: Correlate log events from brute-force simulation  
 Day 6: TryHackMe SOC lab (basic logging) - Day 7: Review week’s logs + self assessment journal
 -Day 2 isntallation of sysmon in vm machine is completed and also explored the PsExec tools got to know about its interface file branches color configurations file detailes process works.
+-Day 4 Explored about id's like how the login id's looks event id's session id's connection or session failed id's and how they look actualy these things are explored.
 
