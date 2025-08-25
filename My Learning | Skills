@@ -105,9 +105,22 @@ Lesson: Critical infrastructure SOCs must integrate IT + OT security (ICS/SCADA)
 The day 1 breifly learning about these topics using chatgpt these info are generated and studied these topics to improve myself in this field.
 
 Day 2: Install and explore Windows Sysinternals tools (Procmon, PsExec) 
-Day 3: Enable Sysmon, collect local logs, explore Event Viewer - 
-Day 4: Explore Event IDs related to authentication and access - Day 5: Correlate log events from brute-force simulation  
-Day 6: TryHackMe SOC lab (basic logging) - Day 7: Review week’s logs + self assessment journal
+Day 3: Enable Sysmon, collect local logs, explore Event Viewer -
+Day 4: Explore Event IDs related to authentication and access 
+Day 5: Correlate log events from brute-force simulation  
+Day 6: TryHackMe SOC lab (basic logging) 
+Day 7: Review week’s logs + self assessment journal
 -Day 2 isntallation of sysmon in vm machine is completed and also explored the PsExec tools got to know about its interface file branches color configurations file detailes process works.
 -Day 4 Explored about id's like how the login id's looks event id's session id's connection or session failed id's and how they look actualy these things are explored.
+I Could not complete the tasks of day3,5,6 Due to some technical error in my system My Virtual Windows 10 crashed and i could not recover now i am rebuilding it.
+
+ Week 2: MITRE ATT&CK & Log Detection - Topics: MITRE ATT&CK Framework basics - Tools: Sysmon + Sigma rules - Practice: Detect brute force with logs
+ Day 1: MITRE ATT&CK structure – TTPs, Techniques, Procedures 
+ Day 2: Explore detection use-cases using ATT&CK Navigator  
+ Day 3: Install Sigma + explore rule syntax and matching  
+ Day 4: Use sample logs with Sigma for brute-force detection 
+ Day 5: Modify or write your own Sigma rule for failed login  
+ Day 6: Simulate detection workflow + incident report draft 
+ Day 7: Review + update detection map based on MITRE
+DAY-1 MITRE ATTACK structure and the TTP(Tactic,Technique,Procedures)These things are learnt using the chat gpt and their official Website 
 
